@@ -1,0 +1,28 @@
+.loginbox
+{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 1em;
+}
+#username 
+{
+    margin: 1em;
+    border-radius: .3em;
+}
+#password{
+    margin: 1em;
+    border-radius: .3em;
+}
+#loginenter
+{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 1em;
+    background-color: aqua;
+}
