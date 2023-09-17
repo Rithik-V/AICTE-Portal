@@ -1,3 +1,7 @@
-button{
-  background-color: red;
+#landing
+{
+  display: flex;
+  flex-direction: row;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/03/42/54/34/1000_F_342543426_G7RJ0RA33CU0RRuC2n096o9bEvYxBZ4H.jpg");
+  height: 100vh;
 }

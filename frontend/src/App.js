@@ -4,7 +4,11 @@ import Frontpage from './components/frontpage';
 
 function App() {
   return (
-    <Frontpage></Frontpage>
+    <div id="landing">
+      <Frontpage></Frontpage>
+      <Logincard></Logincard>
+    </div>
+    
   );
 }
 

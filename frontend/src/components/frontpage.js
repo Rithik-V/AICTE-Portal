@@ -3,7 +3,10 @@ function Frontpage()
 {
     return (
         <div className = "quotebox">
-            <p id="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p id="quote">
+
+Education is the manifestation of perfection present already in man. Divinity is the manifestation of the religion already in man</p>
+        <h3 id="author">-Swami Vivekananda</h3>
         </div>
     )
 }
