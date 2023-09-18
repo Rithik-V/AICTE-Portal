@@ -17,7 +17,6 @@ export default App;
 */
 import './App.css';
 import {Container} from "react-bootstrap";
-import Header from './components/Header';
 import HomePage from './screens/HomePage';
 
 const App = () => {
