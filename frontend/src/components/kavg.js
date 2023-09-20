@@ -25,10 +25,20 @@ function Kavg() {
         k3+= parsedData[i]["K3"];
         k4+= parsedData[i]["K4"];
       }
-      console.log(k1/parsedData.length);
-      console.log(k2/parsedData.length);
-      console.log(k3/parsedData.length)
-      console.log(k4/parsedData.length);
+      // console.log(k1/parsedData.length);
+      // console.log(k2/parsedData.length);
+      // console.log(k3/parsedData.length)
+      // console.log(k4/parsedData.length);
+      var i=0
+      while(localStorage.getItem(i)!=null)
+      {
+        console.log(localStorage.getItem(i));
+        i++
+      }
+      // console.log(localStorage.getItem(i)!=null)
+      //console.log(localStorage);
+      localStorage.setItem(i,[k1/parsedData.length,k2/parsedData.length,k3/parsedData.length,k4/parsedData.length])
+      console.log(localStorage.getItem(i));
     };
   }
 
