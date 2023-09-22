@@ -1,0 +1,17 @@
+.quotebox
+{
+    background-color: rbgi(0,0,0,0);
+    margin: auto;
+    width: 50%;
+}
+#quote{
+    padding-top: 20%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50%;
+    color: white;
+}
+#author
+{
+    color: white;
+    padding-left: 50%;
+}
