@@ -1,3 +1,4 @@
+//<<<<<<< Updated upstream
 /*import './App.css';
 import Logincard from './components/Logincard';
 import Frontpage from './components/frontpage';
@@ -10,6 +11,23 @@ function App() {
       <Kavg></Kavg>
     </div>
     
+=======
+import './App.css';
+import HomePage from './screens/HomePage';
+import Coursepage from "./screens/Coursepage"
+import Kavg from "./components/kavg"
+import Cirriculum from './screens/curriculum';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import LoginPage from './screens/LoginPage';
+import Signup from './screens/Signup';
+const App = () => {
+  return (
+    <BrowserRouter>
+    <Routes>
+      <Route path="/courses" element={<Coursepage/>}></Route>
+    </Routes>
+  </BrowserRouter>
+//>>>>>>> Stashed changes
   );
 }
 
@@ -20,8 +38,13 @@ import {Container} from "react-bootstrap";
 import HomePage from './screens/HomePage';
 import Kavg from './components/kavg';
 import LoginPage from './screens/LoginPage';
+import Coursepage from './screens/Coursepage';
 import Signup from './screens/Signup';
+import Chat from './screens/Chat'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Cirriculum from './screens/Cirriculum';
+import Dashboard from './screens/Dashboard';
+import BriefSummary from './screens/BriefSummary';
 
 const App = () => {
   return (
@@ -29,6 +52,11 @@ const App = () => {
       <Routes>
         <Route path='/register' element = {<Signup/>}></Route>
         <Route path='/login' element = {<LoginPage/>}></Route>
+        <Route path='/courses' element = {<Coursepage/>}></Route>
+        <Route path='/forum' element = {<Chat/>}></Route>
+        <Route path='/curriculum' element = {<Cirriculum/>}></Route>
+        <Route path='/dashboard' element = {<Dashboard/>}></Route>
+        <Route path='/brief' element = {<BriefSummary/>}></Route>
       </Routes>
     </BrowserRouter>
   )

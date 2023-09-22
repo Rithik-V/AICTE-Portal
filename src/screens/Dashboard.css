@@ -1,0 +1,58 @@
+.Dashboard-header input{
+    margin:1.5%;
+    padding:1% 1.5% 1% 1.5%;
+    width:35%;
+    border:none;
+    border-radius:20px;
+    background-color:#ECE5E4;
+}
+
+.Dashboard-body{
+    background-color:#ECE5E4;
+    padding:2%;
+}
+
+.Dashboard-body-title{
+    font-size:180%;
+    font-weight:500;
+}
+
+.Dashboard-card1,.Dashboard-card2{
+    border-radius:10px;
+    width:30%;
+    display:inline-block;
+    margin:2% 2% 1% 0%;
+    padding:2%;
+    background-color:white;
+}
+
+.Dashboard-card-title{
+    font-size:90%;
+    color:grey;
+}
+
+.Dashboard-card-content{
+    font-size:120%;
+}
+
+.Dashboard-card-number{
+    font-size:250%;
+}
+
+.Dashboard-card1 .Dashboard-card-rate{
+    color:green;
+    font-weight:500;
+}
+
+.Dashboard-card2 .Dashboard-card-rate{
+    color:red;
+    font-weight:500;
+}
+
+.Dashboard-card3{
+    border-radius:10px;
+    width:66%;
+    margin:2% 2% 1% 0%;
+    padding:2%;
+    background-color:white;
+}
