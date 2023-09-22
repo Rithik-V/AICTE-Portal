@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+//<<<<<<< Updated upstream
 /*import './App.css';
 import Logincard from './components/Logincard';
 import Frontpage from './components/frontpage';
@@ -27,7 +27,7 @@ const App = () => {
       <Route path="/courses" element={<Coursepage/>}></Route>
     </Routes>
   </BrowserRouter>
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
   );
 }
 
@@ -42,6 +42,8 @@ import Coursepage from './screens/Coursepage';
 import Signup from './screens/Signup';
 import Chat from './screens/Chat'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Cirriculum from './screens/Cirriculum';
+import Dashboard from './screens/Dashboard';
 
 const App = () => {
   return (
@@ -51,6 +53,8 @@ const App = () => {
         <Route path='/login' element = {<LoginPage/>}></Route>
         <Route path='/courses' element = {<Coursepage/>}></Route>
         <Route path='/forum' element = {<Chat/>}></Route>
+        <Route path='/curriculum' element = {<Cirriculum/>}></Route>
+        <Route path='/dashboard' element = {<Dashboard/>}></Route>
       </Routes>
     </BrowserRouter>
   )

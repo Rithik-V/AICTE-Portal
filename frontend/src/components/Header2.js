@@ -33,7 +33,7 @@ const Header = () => {
                     <li class="nav-item">
                         <FaBell style={{fontSize:"30px"}}/>
                     </li>
-                    <li class="nav-item" style={{marginRight:"0em"}}>
+                    <li class="nav-item" style={{marginRight:"-5em"}}>
                         <FaUserCircle style={{fontSize:"36px"}}/>
                     </li>
                 </ul>
