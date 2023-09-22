@@ -3,9 +3,7 @@ import * as XLSX from "xlsx";
 
 
 function Kavg() {
-
   const [data, setData] = useState([]);
-
   const handleFileUpload = (e) => {
     const reader = new FileReader();
     reader.readAsBinaryString(e.target.files[0]);
