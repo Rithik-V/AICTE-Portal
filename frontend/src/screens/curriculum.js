@@ -26,7 +26,7 @@ function Cirriculum()
         <>
         <div className="wrapper">
         <div className="sidebar">
-            <h2>Sidebar</h2>
+            <h2>Cirriculum</h2>
             <ul>
                 <li onClick={file1}><a href="#"><i className="fas fa-home"></i>Regualation 2021</a></li>
                 <li onClick={file2}><a href="#"><i className="fas fa-user"></i>Regualation 2018</a></li>
@@ -35,7 +35,7 @@ function Cirriculum()
         </div>
     </div>
         <div className="container">
-            <iframe id="pdf_view"src="https://www.ssn.edu.in/wp-content/uploads/2020/06/BE_ECE_CurriculumSyllabi.pdf#toolbar=0" width="800" height="500"/>
+            <iframe id="pdf_view"src="https://www.ssn.edu.in/wp-content/uploads/2020/06/BE_ECE_CurriculumSyllabi.pdf#toolbar=0" width="1000" height="760"/>
         </div>
     </>
     )
