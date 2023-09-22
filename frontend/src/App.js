@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*import './App.css';
 import Logincard from './components/Logincard';
 import Frontpage from './components/frontpage';
@@ -10,6 +11,23 @@ function App() {
       <Kavg></Kavg>
     </div>
     
+=======
+import './App.css';
+import HomePage from './screens/HomePage';
+import Coursepage from "./screens/Coursepage"
+import Kavg from "./components/kavg"
+import Cirriculum from './screens/curriculum';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import LoginPage from './screens/LoginPage';
+import Signup from './screens/Signup';
+const App = () => {
+  return (
+    <BrowserRouter>
+    <Routes>
+      <Route path="/courses" element={<Coursepage/>}></Route>
+    </Routes>
+  </BrowserRouter>
+>>>>>>> Stashed changes
   );
 }
 
