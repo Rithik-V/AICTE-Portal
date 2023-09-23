@@ -42,7 +42,7 @@ import Coursepage from './screens/Coursepage';
 import Signup from './screens/Signup';
 import Chat from './screens/Chat'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Cirriculum from './screens/Cirriculum';
+import Cirriculum from './screens/cirriculum.js';
 import Dashboard from './screens/Dashboard';
 
 const App = () => {

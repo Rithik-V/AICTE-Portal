@@ -1,4 +1,4 @@
-import "./curriculum.css"
+import "./cirriculum.css"
 import ReactDOM from 'react-dom'
 function Cirriculum()
 {
