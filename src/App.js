@@ -57,6 +57,7 @@ const App = () => {
         <Route path='/curriculum' element = {<Cirriculum/>}></Route>
         <Route path='/dashboard' element = {<Dashboard/>}></Route>
         <Route path='/brief' element = {<BriefSummary/>}></Route>
+        <Route path='/' element = {<HomePage/>}></Route>
       </Routes>
     </BrowserRouter>
   )

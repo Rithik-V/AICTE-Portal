@@ -1,11 +1,13 @@
 import React from 'react'
 import {Navbar, Nav, Container} from 'react-bootstrap';
 import {FaUserCircle, FaQuestionCircle, FaBell} from 'react-icons/fa';
-import logo from '../images/AICTE_logo.png'
+import logo from '../images/AICTE_logo.png';
+import Sidenav from './Sidenav';
 import { color } from 'highcharts';
 
 const Header = () => {
   return (
+    <>
     <header>
         <Navbar bg = "dark" variant='dark' expand = "md" collapseOnSelect>
             <Container style={{textAlign:"center"}}>
@@ -41,7 +43,9 @@ const Header = () => {
 
             </div>
         </Navbar>
+        
     </header>
+    </>
   )
 }
 
